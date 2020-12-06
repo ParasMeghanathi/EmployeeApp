@@ -17,11 +17,7 @@ and open the template in the editor.
         $password = 'Student123';
         $database = 'emp_details';
         $port = 3306;
-        /*$host = 'database-1.c6jevgf51ssc.us-east-1.rds.amazonaws.com';
-        $user = 'admin';
-        $password = '123admin';
-        $database = 'StudentDB';
-        $port = 3306;*/
+     
 
         $emp_name = $_POST['emp_name'];
         $emp_email = $_POST['emp_email'];
