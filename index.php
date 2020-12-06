@@ -12,7 +12,7 @@ and open the template in the editor.
     </head>
     <?php
     if (isset($_POST['add'])) {
-        $host = 'db1.cpmu2fpuoall.us-east-1.rds.amazonaws.com';
+        $host = 'database1.cpmu2fpuoall.us-east-1.rds.amazonaws.com';
         $user = 'admin';
         $password = 'Student123';
         $database = 'emp_details';
