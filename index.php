@@ -12,9 +12,9 @@ and open the template in the editor.
     </head>
     <?php
     if (isset($_POST['add'])) {
-        $host = 'localhost';
-        $user = 'root';
-        $password = '';
+        $host = 'db1.cpmu2fpuoall.us-east-1.rds.amazonaws.com';
+        $user = 'admin';
+        $password = 'Student123';
         $database = 'emp_details';
         $port = 3306;
         /*$host = 'database-1.c6jevgf51ssc.us-east-1.rds.amazonaws.com';
