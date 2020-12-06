@@ -27,15 +27,11 @@
 			
             <tbody>
                 <?php
-               /*$host = 'database-1.c6jevgf51ssc.us-east-1.rds.amazonaws.com';
-                $user = 'admin';
-                $password = '123admin';
-                $database = 'StudentDB';
-                $port = 3306;*/
+              
 
-                $host = 'localhost';
-                $user = 'root';
-				$password = '';
+                $host = 'database1.cpmu2fpuoall.us-east-1.rds.amazonaws.com';
+                $user = 'admin';
+		$password = 'Student123';
                $database = 'emp_details';
                $port = 3306;
                 $con = mysqli_connect($host, $user, $password, $database, $port);
